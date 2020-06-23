@@ -1,0 +1,301 @@
+.navbar>.header-links>a{
+    padding-right:26px;
+}
+.navbar{
+    height: 141px;
+}
+.header-links{
+    margin-right:93px;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.active-services{
+    width:100px;
+    padding: 15px 25px 15px 25px;
+}
+
+.header2-div{
+    background-image:url('../img/header2.png');
+    height:304px;
+}
+
+.header2{
+    font-size:36px;
+    position:absolute;
+    margin-top:58px;
+    margin-left:119px;
+    padding:72px;
+    width:1452px;
+    font-family: 'Montserrat';
+
+}
+
+h2{
+    font-family:'Montserrat';
+    font-size: 36px;
+}
+
+.navbar-brand{
+   font-family: 'Montserrat', sans-serif;
+   margin-left:97px;
+   font-size:28px;
+}
+
+.row{
+    height:851px;
+}
+
+.bg-pink{
+   background-color: #F3EFEC ;
+    z-index:-1;
+  
+}
+
+.service-columns{
+   padding-left:200px;
+   padding-top:200px;
+}
+
+button{
+    background-color: #BFA09B;
+    height:52px;
+    width:165px;
+}
+.div-right{
+    padding-right:200px;
+}
+
+.div-right>p{
+  margin-left:200px;  
+}
+
+.para{
+ margin-top:62px;
+ margin-bottom:62px;
+ font-size:18px;
+ font-family: 'Roboto';
+
+}
+
+.services-images{
+   margin-top:200px;
+   margin-left:200px;
+    z-index:2;
+}
+
+.services-images-right{
+   margin-left:-160px;
+   margin-top:150px;
+}
+
+.services-images-spa{
+    margin-left:-350px;
+    margin-top: -50px;
+    z-index:2;
+}
+
+.book-div{
+    width:1306px;
+    background-color:#BFA09B;
+    margin-left:300px;
+    margin-top:-50px;
+    padding:70px 75px 40px 75px;
+    font-size:18px;
+    font-family:'Roboto';
+}
+
+.btn-book{
+    background-color: #000;
+    margin-top: 30px;
+}
+
+.service-footer{
+    background-image: url('../img/footer-img.png');
+    height:250px;
+    margin-top:60px;
+    
+}
+
+.footer-bar{
+    margin-top:60px;
+    font-size:18px;
+    font-family: 'Montserrat';
+    margin-left:120px;
+}
+
+.footer-bar>a{
+    margin-top:10px;
+}
+
+.footer-hr{
+    background-color: #ffffff;
+    height:2px;
+    width:280px;
+    margin-left:80px;
+}
+
+.insta-dot{
+    margin-left:-48px;
+}
+.social-logos{
+    margin-left:200px;
+    margin-top:20px;
+}
+
+.social-logos>img{
+    padding-right:28px;
+}
+
+.footer-rights{
+    margin-top:40px;
+    font-family:'Roboto';
+    font-size:18px;
+    margin-left:50px;
+}
+
+@media (max-width:768px){
+    .navbar-brand{
+        margin-left:5px;
+    }
+    
+    .header-links{
+        margin-right:8px;
+    }
+    .navbar>.header-links>a{
+        padding-right:5px;
+    }
+    
+     .header2{
+        width:700px;
+        padding:70px;
+        margin-left:80px;
+    }
+    
+}
+
+@media (max-width:576px){
+    .navbar-brand{
+        margin-left:15px;
+        padding-left:0;
+        
+    }
+    
+    .header-links{
+        margin-right:5;
+       
+    }
+    .navbar>.header-links>a{
+        padding-right:0;
+        padding-left:0;
+    }
+    
+    .navbar{
+        padding:0;
+    }
+    
+    .header2{
+        width:400px;
+        padding:40px;
+        margin-left:80px;
+    }
+    
+    .header2-div{
+        background-image:url(../img/mini-header.png);
+    }
+    
+    .bg-pink{
+        padding:100px;
+    }
+    
+    .para{
+        margin-top:30px;
+    }
+    
+    .hair-div{
+        margin-top:170px;
+        margin-left:-100px;
+    }
+    
+    .div-right>p{
+          margin-left:150px;
+}
+    .services-images-spa{
+        width: 500px;
+        margin-top:-260px;
+        margin-left:-180px;
+    }
+    
+    .services-images{
+      
+        width:500px;
+        margin-left:5px;
+        margin-top:200px;
+    
+    }
+    
+    .div-right{
+      
+        padding-right:50px;
+        margin-top:-165px;
+    
+    }
+    
+    .services-images-right{
+        width:500px;
+        margin-left:7px;
+        margin-top:50px;
+    
+    }
+    
+    .beauty-column{
+      margin-top:-100px;
+      padding-top:300px;
+    
+    }
+    
+    .beauty-image{
+        margin-top:400px;
+    }
+    
+    .book-div{
+        width:450px;
+        margin-top:600px;
+        margin-left:50px;
+    }
+    
+    .service-footer{
+        height:400px;
+    }
+    .footer-bar{
+        margin-top:10px;
+        margin-left:90px;
+    }
+    
+    .footer-mobile-bar{
+        margin-left:-400px;
+        margin-top:200px;
+    }
+    
+    .social-logos{
+        position:absolute;
+       margin-left:-50px;
+       padding-top:20px;
+       padding-left:50px;
+       
+    }
+    
+    .footer-bar>h2{
+        margin-left:30px;
+        width:370px;
+    }
+    
+    .footer-rights{
+        margin-right:-250px;
+        padding-left:120px;
+    }
+    
+    
+    
+    
+}
