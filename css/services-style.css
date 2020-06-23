@@ -16,7 +16,7 @@
 }
 
 .header2-div{
-    background-image:url('../images/header2.png');
+    background-image:url('../img/header2.png');
     height:304px;
 }
 
@@ -111,7 +111,7 @@ button{
 }
 
 .service-footer{
-    background-image: url('../images/footer-img.png');
+    background-image: url('../img/footer-img.png');
     height:250px;
     margin-top:60px;
     
@@ -201,7 +201,7 @@ button{
     }
     
     .header2-div{
-        background-image:url(../images/mini-header.png);
+        background-image:url(../img/mini-header.png);
     }
     
     .bg-pink{
