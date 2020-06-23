@@ -16,7 +16,7 @@
 }
 
 .header2-div{
-    background-image:url('../img/header2.png');
+    background-image:url('../images/header2.png');
     height:304px;
 }
 
@@ -26,7 +26,7 @@
     margin-top:58px;
     margin-left:119px;
     padding:72px;
-    width:1452px;
+    width:1300px;
     font-family: 'Montserrat';
 
 }
@@ -63,7 +63,7 @@ button{
     width:165px;
 }
 .div-right{
-    padding-right:200px;
+    padding-right:150px;
 }
 
 .div-right>p{
@@ -80,7 +80,7 @@ button{
 
 .services-images{
    margin-top:200px;
-   margin-left:200px;
+   margin-left:150px;
     z-index:2;
 }
 
@@ -96,7 +96,7 @@ button{
 }
 
 .book-div{
-    width:1306px;
+    width:1006px;
     background-color:#BFA09B;
     margin-left:300px;
     margin-top:-50px;
@@ -111,7 +111,7 @@ button{
 }
 
 .service-footer{
-    background-image: url('../img/footer-img.png');
+    background-image: url('../images/footer-img.png');
     height:250px;
     margin-top:60px;
     
@@ -156,18 +156,18 @@ button{
 
 @media (max-width:768px){
     .navbar-brand{
-        margin-left:5px;
+        margin-left:3px;
     }
     
     .header-links{
-        margin-right:8px;
+        margin-right:3px;
     }
     .navbar>.header-links>a{
-        padding-right:5px;
+        padding-right:3px;
     }
     
      .header2{
-        width:700px;
+        width:600px;
         padding:70px;
         margin-left:80px;
     }
@@ -176,13 +176,18 @@ button{
 
 @media (max-width:576px){
     .navbar-brand{
-        margin-left:15px;
+        margin-left:3px;
         padding-left:0;
+        font-size:22px;
         
     }
-    
+    .active-services{
+        width:20px;
+        padding:3px 1px 3px 1px;
+    }
     .header-links{
-        margin-right:5;
+        margin-right:3;
+        font-size:18px;
        
     }
     .navbar>.header-links>a{
@@ -195,13 +200,13 @@ button{
     }
     
     .header2{
-        width:400px;
-        padding:40px;
-        margin-left:80px;
+        width:420px;
+        padding:30px;
+        margin-left:40px;
     }
     
     .header2-div{
-        background-image:url(../img/mini-header.png);
+        background-image:url(../images/mini-header.png);
     }
     
     .bg-pink{
@@ -213,12 +218,12 @@ button{
     }
     
     .hair-div{
-        margin-top:170px;
+        margin-top:350px;
         margin-left:-100px;
     }
     
     .div-right>p{
-          margin-left:150px;
+          margin-left:100px;
 }
     .services-images-spa{
         width: 500px;
@@ -230,13 +235,13 @@ button{
       
         width:500px;
         margin-left:5px;
-        margin-top:200px;
+        margin-top:240px;
     
     }
     
     .div-right{
       
-        padding-right:50px;
+        padding-right:80px;
         margin-top:-165px;
     
     }
@@ -255,13 +260,13 @@ button{
     }
     
     .beauty-image{
-        margin-top:400px;
+        margin-top:620px;
     }
     
     .book-div{
         width:450px;
-        margin-top:600px;
-        margin-left:50px;
+        margin-top:1000px;
+        margin-left:20px;
     }
     
     .service-footer{
@@ -299,3 +304,4 @@ button{
     
     
 }
+
