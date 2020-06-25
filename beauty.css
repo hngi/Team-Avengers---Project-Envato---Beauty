@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Montserrat|Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+/*Nav Section*/
+.navbar-brand{
+    font-weight: bold;
+    padding-left: 5%;
+}
+.navbar{
+    margin-top: 3%;
+}
+.nav-item{
+    padding-right: 50px;
+}
+/*HOME SECTION*/
+.first{
+    height: 100vh;
+    padding: 5%;
+}
+.imgg{
+    margin-bottom: 2%;
+}
+.imgg, .imgg2{
+    height: 350px;
+}
+.detail1{
+    color: #1c1c1c;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 12%;
+    padding-bottom: 6%;
+}
+.detail2{
+    font-size: 20px;
+    background-color:#BFA09B ;
+    padding: 7% 12%;
+    margin-left: -12%;
+    margin-bottom: 7%;
+    color: #1c1c1c;
+}
+.one{
+    margin-bottom: 7%;
+}
+#btnn{
+    font-size: 20px;
+    padding: 15px;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
+
+/*HOW WE CAN HELP YOU SECTION*/
+.two{
+    background-color: #F3EFEC ;
+}
+.heading{
+    font-size: 28px;
+    border-bottom: 2px solid #BFA09B ;
+    color: #1c1c1c;
+    margin: 5% 39%;
+    padding-top: 8%;
+    padding-bottom: 1%;
+}
+.clock{
+    float: right;
+    margin-top: -2%;
+}
+.heading2, .detail3{
+    padding-left: 30%;
+    margin-right: -18%;
+    color: #1c1c1c;
+}
+.n{
+    margin-left: 30%;
+    padding-top: 4%;
+    margin-top: 4%;
+}
+.heading2{
+    font-weight: bold;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-size: 28px;
+}
+.fa{
+   color:#BFA09B  ;
+
+}
+.dot{
+    font-weight: bold;
+    color: #1c1c1c;
+    font-size: 18px;
+    padding-top: 4%;
+}
+.dott{
+    font-weight: bold;
+    color: #1c1c1c;
+    font-size: 18px;
+    padding-top: 4%;
+    margin-left: -5% ;
+}
+.a{
+    margin-left: 30%;
+}
+
+/*
+p{
+    font-family: 'Roboto' !important;
+}
+GALLERY SECTION*/
+
+.heading3{
+    font-size: 28px;
+    border-bottom: 2px solid #BFA09B ;
+    color: #1c1c1c;
+    margin: 0% 47%;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.firsts{
+    height: 100vh;
+    width: 100%;
+}
+.k{
+    margin-left: 15%;
+}
+.l{
+    margin-left: 10%;
+}
+.h{
+    margin-right: -5%;
+}
+/*CUSTOMER BASE SECTION*/
+
+.customer{
+    background-image: url('image/7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 4%;
+}
+.head{
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 36px;
+    padding-bottom: 5%;
+    opacity: .8;
+    margin-bottom: 3%;
+    margin-left: -2%;
+}
+
+.detail4{
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.detail5{
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+.col2{
+    background-color:  #BFA09B;
+    padding: 5%;
+    padding-top: 5%;
+}
+.col1{
+    background-color: #F3EFEC ;
+    padding: 5%;
+}
+.d{
+    margin-top: 6%;
+}
+.rating,.ratings{
+    padding-left: 30%;
+}
+.rating{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.ratings, .ratingsb{
+    color: #1c1c1c;
+    margin-top: -5%;
+}
+
+.ratingb{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.ratingsb{
+    padding-left: -30%;
+}
+
+/*Footer Section*/
+footer{
+    background-color: #1c1c1c;
+    opacity: .8;
+    color: white;
+}
+.footer-link{
+    color: white;
+}
+.store-name{
+    font-weight: bold;
+    font-size: 22px;
+}
+@media screen and (max-width:1024px){
+    .nav-item{
+        padding-right: 20px;
+    }
+    .imgg, .imgg2{
+        width: 100%;
+    }
+    .imgg, .imgg2{
+        height: 250px;
+    }
+    .imgg3{
+        width: 110%;
+        margin-left: 7%;
+    }
+    .heading2{
+        font-size: 30px;
+    }
+    .first{
+        height: 600px;
+    }
+    .heading{
+        margin: 5% 35%;
+    }
+    .heading2, .detail3{
+        padding-left: 26%;
+    }
+    .heading3{
+        margin: 0% 47%;
+    }
+    .top{
+        margin-top: -25%;
+    }
+    .third{
+        width: 95%;
+    }
+    .h{
+        width: 92%;
+        height: 49%;
+    }
+    .firsts{
+        height: 800px;
+        margin-top: 6%;
+    }
+    .customer{
+        height: 700px;
+    }
+    .n{
+        margin-left: 26%;
+    }
+    .dot{
+        font-size: 13px;
+    }
+    .a{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:768px){
+   .imgg, .imgg2{
+       height: 220px;
+   }
+   
+   .detail1{
+       font-size: 30px;
+   }
+   .detail2{
+       font-size: 18px;
+       margin-left: -14%;
+       padding: 7% 14%;
+   }
+   .firsts{
+    height: 700px;
+    margin-top: 6%;
+}
+  
+   .one{
+       margin-bottom: 2%;
+   }
+   .first{
+       height: 500px;
+   }
+    .imgg3{
+        width: 100%;
+        height: 350px;
+    }
+    .heading{
+        margin: 5% 29%;
+    }
+    .heading2, .detail3{
+        padding-left: 10%;
+    }
+    .heading2{
+        padding-top: 10%;
+        font-size: 24px;
+    }
+    .detail3{
+        font-size: 15px;
+    }
+    .n{
+        margin-left: 10%;
+    }
+    .a{
+        margin-left: 10%;
+    }
+    .third{
+        width: 95%;
+    }
+    .h{
+        width: 95%; 
+        height: 56%; 
+      }
+    .head{
+        margin-right: -2%;
+    }
+    .dot{
+        font-size: 11px;
+    }
+    .customer{
+        height: 600px;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .first{
+        height: 400px;
+    }
+    .imgg{
+        margin-bottom: 2%;
+    }
+    .imgg, .imgg2{
+        height: 180px;
+    }
+    .heading{
+        margin: 5% 11%;
+    }
+    .imgg3{
+        width: 90%;
+        margin-left: 12%;
+    }
+    .detail1{
+        font-size: 16px;
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+    .detail2{
+        font-size: 13px;
+        margin-left: -18%;
+        padding: 7% 17%;
+    }
+    .one{
+        margin-bottom: 7%;
+    }
+    #btnn{
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 5%;
+    }
+    .heading2{
+        margin-top: 18%;
+    }
+    .n{
+        margin-bottom: 8%;
+    }
+    .k, .l, .h{
+        height: 350px;
+        width: 320px;
+    }
+    .firsts{
+        height: 1400px;
+    } 
+    .k{
+        margin-right: 5%;
+        margin-left: 11%;
+    } 
+    .l, .h{
+        margin-top: -19%;
+    } 
+    .h{
+        margin-left: 10%;
+    }
+    .head{
+        margin: -4%;
+        font-size: 22px;
+    }
+     
+    .detail4{
+        padding-left: 5%;
+        padding-top: 22%;
+        padding-bottom: 5%;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .detail5{
+        padding-left: 5%;
+        padding-bottom: 10%;
+        font-size: 16px;
+    }
+    .col2{
+        background-color:  #BFA09B;
+        padding: 5%;
+        padding-top: 5%;
+    }
+    .col1{
+        padding: 5%;
+    }
+    .d{
+        margin-top: 10%;
+        height: 50px;
+    }
+    .rating,.ratings{
+        padding-left: 10%;
+    }
+    .rating{
+        font-size: 20px;
+    }
+    .ratings, .ratingsb{
+        margin-top: 0%;
+        font-size: 12px;
+    }
+    
+    .ratingb{
+        font-size: 20px;
+    }
+    .ratingsb{
+        padding-left: -30%;
+    }
+    .customer{
+        height: 400px;
+    }
+    
+}  
+
+@media screen and (max-width:375px){
+    .detail2{
+        font-size: 11px;
+    }
+    .detail1{
+        font-size: 14px;
+    }
+    .one{
+        margin-bottom: 3%;
+    }
+    .first{
+        height: 350px;
+    }
+    .imgg, .imgg2{
+        height: 150px;
+    }
+    button{
+        font-size: 2px;
+    }
+    .heading{
+        margin: 5% 6%;
+    }
+    .imgg3{
+        width: 90%;
+        margin-left: 14%;
+    }
+    .k, .l, .h{
+        margin-left: 10%;
+        width: 280px;
+    }
+    .heading3{
+        margin: 0% 38%;
+    }
+    
+    .ratings, .ratingsb{
+        margin-top: 0%;
+        font-size: 10px;
+    }
+    
+    .ratingb, .rating{
+        font-size: 15px;
+    }
+    .col2{
+        padding: 5%;
+        padding-top: 15%;
+    }
+    .detail4{
+        font-size: 22px;
+        padding-top: 25%;
+    }
+
+    .detail5{
+        font-size: 15px;
+    }
+} 
+@media screen and (max-width:320px){
+    .heading{
+        margin: 5% 8%;
+        font-size: 22px;
+    }
+    .detail2{
+        font-size: 11px;
+        margin-left: -21%;
+        padding: 7% 19%;
+    }
+    .dot{
+        font-size: 9px;
+        margin-top: 5%;
+    }
+    .k, .l, .h{
+        margin-left: 10%;
+        width: 240px;
+    }
+    .ratings, .ratingsb{
+        margin-top: 0%;
+        font-size: 8px;
+    }
+    
+    .ratingb, .rating{
+        font-size: 12px;
+    }
+    .col2{
+        padding: 2%;
+        padding-top: 18%;
+    }
+    .detail4{
+        font-size: 22px;
+        padding-top: 25%;
+    }
+
+    .detail5{
+        font-size: 13px;
+    }
+    .head{
+        margin: -6%;
+        font-size: 18px;
+    }
+}    
